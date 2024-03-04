@@ -19,7 +19,7 @@ car_y = screen_height - car_height - 10
 
 def car(x, y):
     screen.blit(car_image, (x, y))
-
+# print it
 game_over = False
 
 while not game_over:
